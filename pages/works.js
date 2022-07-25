@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbELibrary from '../public/images/works/library.png'
 import thumbgoogle from '../public/images/works/google-clone.png'
 import thumbmovie from '../public/images/works/MovieSearcher.png'
+import thumbTreact from '../public/images/works/treact.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -48,7 +49,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="treact" thumbnail={thumbgoogle} title="Treact-Clone">
+          <WorkGridItem id="treact" thumbnail={thumbTreact} title="Treact-Clone">
             A clone I made from the website Treact.
           </WorkGridItem>
         </Section>
