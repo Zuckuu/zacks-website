@@ -7,6 +7,8 @@ import thumbELibrary from '../public/images/works/library.png'
 import thumbgoogle from '../public/images/works/google-clone.png'
 import thumbmovie from '../public/images/works/MovieSearcher.png'
 import thumbTreact from '../public/images/works/treact.png'
+import thumbNetflix from '../public/images/works/netflix-clone.png'
+import thumbYoutube from '../public/images/works/youtube-clone.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -34,7 +36,7 @@ const Works = () => (
             thumbnail={thumbmovie}
           >
             A website where you can look at a movie descriptions, this was how I
-            got practice for using APIs. 
+            got practice for using APIs.
           </WorkGridItem>
         </Section>
 
@@ -49,8 +51,32 @@ const Works = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="treact" thumbnail={thumbTreact} title="Treact-Clone">
+          <WorkGridItem
+            id="treact"
+            thumbnail={thumbTreact}
+            title="Treact-Clone"
+          >
             A clone I made from the website Treact.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="netflix-clone"
+            title="Netflix-Clone"
+            thumbnail={thumbNetflix}
+          >
+            This is a Netflix-clone that feature a movie APIs.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="youtube-clone"
+            thumbnail={thumbYoutube}
+            title="Youtube-Clone"
+          >
+            A clone I made from YouTube.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

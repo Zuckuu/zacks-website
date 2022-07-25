@@ -1,13 +1,10 @@
 import {
-  Box,
   Container,
   Badge,
   Link,
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Image
+  AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -15,37 +12,29 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Treact-Clone">
+  <Layout title="Netflix Clone">
     <Container>
       <Title>
-        Treact-Clone <Badge>2022</Badge>
+        Netflix Clone <Badge>2022</Badge>
       </Title>
-      <P>A clone I made from the website Treact.</P>
+      <P>This is a Netflix-clone that feature a movie APIs.</P>
 
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://zuckuu.github.io/TreactRemake/" target="_blank">
-            https://zuckuu.github.io/TreactRemake/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS, JavaScript</span>
+          <span>React, Html, Css, Java</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <span>First Cloning project!!</span>
+          <span>Getting pratice with my APIs!!</span>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/treact.png" alt="treact" />
-      <WorkImage src="/images/works/treact-01.png" alt="treact" />
-      <WorkImage src="/images/works/treact-02.png" alt="treact" />
-      <WorkImage src="/images/works/treact-03.png" alt="treact" />
+
+      <WorkImage src="/images/works/Netflix-Clone.png" alt="Netflix Clone" />
     </Container>
   </Layout>
 )
