@@ -142,7 +142,16 @@ const Navbar = props => {
                   as={Link}
                   href="mailto:entbit12@gmail.com subject=subject text"
                 >
+                  <IoMail />
                   Contact Me!
+                </MenuItem>
+                <MenuItem
+                  as={Link}
+                  href="/resume.pdf"
+                  target="_blank"
+                >
+                  <IoFileTray />
+                  Resume
                 </MenuItem>
               </MenuList>
             </Menu>
