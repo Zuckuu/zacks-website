@@ -13,7 +13,7 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(0, 0.5, 0))
+  const [target] = useState(new THREE.Vector3(0, 0.7, 0))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
       100 * Math.sin(0.2 * Math.PI),
@@ -81,6 +81,19 @@ const VoxelDog = () => {
         animate()
         setLoading(false)
       })
+
+      function addStar() {
+        const geometry = new THREE.SphereGeometry(.02, 24, 24);
+        const material = new THREE.MeshStandardMaterial({ color: 0xFFFF00});
+        const star = new THREE.Mesh(geometry, material);
+        const [x, y, z] = Array(3)
+          .fill()
+          .map(() => THREE.MathUtils.randFloatSpread(10));
+        star.position.set(x, y, z);
+        scene.add(star);
+      }
+  
+      Array(50).fill().forEach(addStar);
 
       let req = null
       let frame = 0
