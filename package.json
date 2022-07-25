@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "zacks-website",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Zack's Website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,23 +10,23 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Zack Le",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "framer-motion": "^6.3.0",
-    "next": "^12.1.5",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.5.1",
+    "next": "^12.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.4.0",
     "three": "^0.139.2"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
-    "eslint-config-next": "^12.1.5",
-    "prettier": "^2.6.2"
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "prettier": "^2.7.1"
   }
 }
