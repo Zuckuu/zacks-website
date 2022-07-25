@@ -1,0 +1,45 @@
+import {
+  Container,
+  Badge,
+  Link,
+  List,
+  ListItem,
+  UnorderedList,
+  Heading,
+  Center
+} from '@chakra-ui/react'
+import Layout from '../../components/layouts/article'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+
+const Work = () => (
+  <Layout title="YouTube Clone">
+    <Container>
+      <Title>
+        YouTube Clone <Badge>2022</Badge>
+      </Title>
+      <P>A clone I made from YouTube. A pratice on reusing components.</P>
+
+      <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Platform</Meta>
+          <span>Windows/macOS/Linux/iOS/Android</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Stack</Meta>
+          <span>HTML, CSS, JavaScript, React</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Blogpost</Meta>
+          <span>Cat Videos</span>
+        </ListItem>
+      </List>
+
+      <WorkImage src="/images/works/youtube-clone.png" alt="YouTube Clone" />
+    </Container>
+  </Layout>
+)
+
+export default Work
+export { getServerSideProps } from '../../components/chakra'

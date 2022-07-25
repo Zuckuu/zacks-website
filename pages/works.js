@@ -76,7 +76,7 @@ const Works = () => (
             thumbnail={thumbYoutube}
             title="Youtube-Clone"
           >
-            A clone I made from YouTube.
+           A clone I made from YouTube. A pratice on reusing components.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

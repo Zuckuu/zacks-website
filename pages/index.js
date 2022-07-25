@@ -177,7 +177,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @cheekyZacken
+                @cheekyzacken
               </Button>
             </Link>
           </ListItem>
