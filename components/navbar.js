@@ -101,7 +101,7 @@ const Navbar = props => {
             Contact Me!
           </LinkItem>
           <LinkItem
-            href="mailto:entbit12@gmail.com subject=subject text"
+            href="/resume.pdf"
             path={path}
             display="inline-flex"
             alignItems="center"
