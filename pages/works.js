@@ -3,12 +3,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbELibrary from '../public/images/works/library.png'
-import thumbgoogle from '../public/images/works/google-clone.png'
-import thumbmovie from '../public/images/works/MovieSearcher.png'
-import thumbTreact from '../public/images/works/treact.png'
-import thumbNetflix from '../public/images/works/netflix-clone.png'
-import thumbYoutube from '../public/images/works/youtube-clone.png'
+import thumbELibrary from '../public/images/works/library.PNG'
+import thumbgoogle from '../public/images/works/google-clone.PNG'
+import thumbmovie from '../public/images/works/MovieSearcher.PNG'
+import thumbTreact from '../public/images/works/treact.PNG'
+import thumbNetflix from '../public/images/works/netflix-clone.PNG'
+import thumbYoutube from '../public/images/works/youtube-clone.PNG'
 
 const Works = () => (
   <Layout title="Works">
