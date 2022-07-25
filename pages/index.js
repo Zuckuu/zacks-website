@@ -15,11 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoLinkedin
-} from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -82,18 +78,18 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          My name is Thang Le, but I prefer the name Zack Le. Currently I am a
-          student at University of Houston, majoring in Teaching and Learning. I
-          moved to America at a very young age and learned what it meant to work
-          and earn salary. All throughout high school I had to get many jobs to
-          provide for me and my family. I am a hard-working students who like to
-          get stuff done. I have a passion for building build aesthetic /
-          responsive website and I want to keep improving my coding skill. My
-          goals right now is to get a frontend developer job to set my future.
-          Check out my portfolio to see all my works / mini-projects. Most of
-          the projects are freelancing work to show that I have the skillset for
-          those objective. When not online, I love to play tennis or video games
-          / hanging out with friends.
+          My name is Thang Le, but I prefer the name, Zack Le. Currently, I am a
+          student at the University of Houston, majoring in Teaching and
+          Learning. I moved to America at a very young age and learned what it
+          meant to work and earn a salary. All throughout high school, I had to
+          get many jobs to provide for me and my family. I am hard-working
+          students who like to get stuff done. I have a passion for building
+          build aesthetic/responsive websites and I want to keep improving my
+          coding skill. My goal right now is to get a frontend developer job to
+          set my future. Check out my portfolio to see all my works /
+          mini-projects. Most of the projects are freelancing work to show that
+          I have the skillset for that objective. When not online, I love to
+          play tennis or video games / hang out with friends.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
