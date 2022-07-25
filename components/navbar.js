@@ -78,6 +78,18 @@ const Navbar = props => {
             Mini-Projects
           </LinkItem>
           <LinkItem
+            href="https://github.com/Zuckuu"
+            target="_blank"
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+            path={path}
+          >
+            <IoLogoGithub />
+            My Github
+          </LinkItem>
+          <LinkItem
             href="mailto:entbit12@gmail.com subject=subject text"
             path={path}
             display="inline-flex"
@@ -110,6 +122,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Mini-Projects</MenuItem>
+                </NextLink>
+                <NextLink href="https://github.com/Zuckuu" target="_blank" passHref>
+                  <MenuItem as={Link}>My Github</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
