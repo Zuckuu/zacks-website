@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbELibrary from '../public/images/works/library.png'
 import thumbgoogle from '../public/images/works/google-clone.png'
+import thumbmovie from '../public/images/works/MovieSearcher.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -29,7 +30,7 @@ const Works = () => (
           <WorkGridItem
             id="movie"
             title="Movie Searcher"
-            thumbnail={thumbgoogle}
+            thumbnail={thumbmovie}
           >
             A website where you can look at a movie descriptions, this was how I
             got practice for using APIs. 
