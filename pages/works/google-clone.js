@@ -1,14 +1,4 @@
-import {
-  Box,
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-  UnorderedList,
-  Heading,
-  Center
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -22,10 +12,10 @@ const Work = () => (
       </Title>
       <P>This is a google-clone that feature a working search engine.</P>
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://zuckuu.github.io/google-clone/" target="_blank">
-          https://zuckuu.github.io/google-clone/ <ExternalLinkIcon mx="2px" />
+            https://zuckuu.github.io/google-clone/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -33,8 +23,8 @@ const Work = () => (
           <span> HTML, CSS, JavaScript</span>
         </ListItem>
         <ListItem>
-        <Meta>Platform</Meta>
-        <span>Windows/macOS/Linux/iOS/Android</span>
+          <Meta>Platform</Meta>
+          <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
