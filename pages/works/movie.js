@@ -11,7 +11,7 @@ const Work = () => (
       </Title>
       <P>
         A website where you can look at a movie descriptions, this was how I got
-        practice for using APIs.
+        practice for using APIs. 
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -20,10 +20,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Html, Css, Java</span>
+          <span>Html, CSS, Java</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
+          <Meta>What I Learned</Meta>
           <span>Getting pratice with my APIs!!</span>
         </ListItem>
       </List>

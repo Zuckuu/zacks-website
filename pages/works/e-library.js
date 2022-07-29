@@ -32,7 +32,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Html, Css, Java, React</span>
+          <span>Html, CSS, Java, React</span>
         </ListItem>
         <ListItem>
           <Meta>What I learned</Meta>

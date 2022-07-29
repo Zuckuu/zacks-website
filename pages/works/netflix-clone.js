@@ -1,9 +1,4 @@
-import {
-  Container,
-  Badge,
-  List,
-  ListItem,
-} from '@chakra-ui/react'
+import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -14,7 +9,10 @@ const Work = () => (
       <Title>
         Netflix Clone <Badge>2022</Badge>
       </Title>
-      <P>This is a Netflix-clone that feature a movie APIs.</P>
+      <P>
+        This is a Netflix-clone that feature a movie APIs. I followed a tutorial
+        on youtube for this project.
+      </P>
 
       <List ml={4} my={4}>
         <ListItem>
@@ -26,7 +24,7 @@ const Work = () => (
           <span>React, Html, Css, Java</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
+          <Meta>What I Learned</Meta>
           <span>Getting pratice with my APIs!!</span>
         </ListItem>
       </List>

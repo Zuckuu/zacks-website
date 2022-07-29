@@ -10,7 +10,10 @@ const Work = () => (
       <Title>
         YouTube Clone <Badge>2022</Badge>
       </Title>
-      <P>A clone I made from YouTube. A pratice on reusing components.</P>
+      <P>
+        A clone I made from YouTube. A pratice on reusing components. This was
+        tutorial on youtube.
+      </P>
 
       <List ml={4} my={4}>
         <ListItem>
@@ -22,7 +25,7 @@ const Work = () => (
           <span>HTML, CSS, JavaScript, React</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
+          <Meta>What I Learned</Meta>
           <span>Cat Videos</span>
         </ListItem>
       </List>

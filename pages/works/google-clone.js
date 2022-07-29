@@ -10,7 +10,10 @@ const Work = () => (
       <Title>
         Google-Clone <Badge>2022</Badge>
       </Title>
-      <P>This is a google-clone that feature a working search engine.</P>
+      <P>
+        This is a google-clone that feature a working search engine. I followed
+        a tutorial on youtube.
+      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
@@ -27,7 +30,7 @@ const Work = () => (
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
+          <Meta>What I learned</Meta>
           <span>A pratice on how to improve my skill on css and html.</span>
         </ListItem>
       </List>

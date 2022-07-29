@@ -10,7 +10,9 @@ const Work = () => (
       <Title>
         Treact-Clone <Badge>2022</Badge>
       </Title>
-      <P>A clone I made from the website Treact.</P>
+      <P>
+        A clone I made from the website Treact. This was an individual project.
+      </P>
 
       <List ml={4} my={4}>
         <ListItem>
@@ -28,8 +30,10 @@ const Work = () => (
           <span>HTML, CSS, JavaScript</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <span>First Cloning project!!</span>
+          <Meta>What I Learned</Meta>
+          <span>
+            I learned how to use the inspect feature to debug my problems
+          </span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/treact.png" alt="treact" />
