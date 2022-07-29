@@ -9,6 +9,7 @@ import thumbmovie from '../public/images/works/MovieSearcher.PNG'
 import thumbTreact from '../public/images/works/treact.PNG'
 import thumbNetflix from '../public/images/works/netflix-clone.PNG'
 import thumbYoutube from '../public/images/works/youtube-clone.PNG'
+import thumbOst from '../public/images/works/ost.PNG'
 
 const Works = () => (
   <Layout title="Works">
@@ -76,7 +77,17 @@ const Works = () => (
             thumbnail={thumbYoutube}
             title="Youtube-Clone"
           >
-           A clone I made from YouTube. A pratice on reusing components.
+            A clone I made from YouTube. A pratice on reusing components.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="ost"
+            title="OST Website"
+            thumbnail={thumbOst}
+          >
+           An e-commerce website that feature logins, carts, shopping methods, etc.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
