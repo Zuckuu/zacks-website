@@ -10,6 +10,7 @@ import thumbTreact from '../public/images/works/treact.png'
 import thumbNetflix from '../public/images/works/netflix-clone.png'
 import thumbYoutube from '../public/images/works/youtube-clone.png'
 import thumbOst from '../public/images/works/ost.png'
+import thumbFood from '../public/images/works/food.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -90,6 +91,17 @@ const Works = () => (
            An e-commerce website that feature logins, carts, shopping methods, etc.
           </WorkGridItem>
         </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="food"
+            title="foodHotLine"
+            thumbnail={thumbFood}
+          >
+           This is a restaurant website made with just HTML, CSS, JAVA, along with swiper.js.
+           Feature: About, Order, Dishes, Menu, Reviews, Cart. 
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
     </Container>
   </Layout>
