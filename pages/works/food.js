@@ -15,9 +15,6 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
