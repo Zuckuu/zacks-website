@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbTTT from '../public/images/contents/tictactoe.PNG'
-import thumbClock from '../public/images/contents/clock.PNG'
-import thumbStopWatch from '../public/images/contents/stopwatch.PNG'
-import thumbSnake from '../public/images/contents/snake.PNG'
+import thumbTTT from '../public/images/contents/tictactoe.png'
+import thumbClock from '../public/images/contents/clock.png'
+import thumbStopWatch from '../public/images/contents/stopwatch.png'
+import thumbSnake from '../public/images/contents/snake.png'
 
 const Posts = () => (
   <Layout title="Mini-Projects">
