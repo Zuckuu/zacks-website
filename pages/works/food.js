@@ -31,7 +31,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Html, Css, Java, React</span>
+          <span>Html, Css, Java</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
