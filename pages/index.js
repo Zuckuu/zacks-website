@@ -78,9 +78,12 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          My name is Thang Le, but I prefer the name, Zack Le. I am young
-          frontend developer looking to gain more experience in web building. I
-          can use Html, CSS, and Java with frameworks like React or Next.js.
+          My name is Thang Le, but I prefer the name, Zack Le. I offer the
+          experience required to develop responsive, multi-platform and
+          performant web applications using React or Next.js along with the
+          ability to work independently and learn quickly. My E-Portfolio below
+          highlights my strong skills for frontend development, along with other
+          skills that also align with this position.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
