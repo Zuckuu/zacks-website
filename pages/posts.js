@@ -6,6 +6,7 @@ import { GridItem } from '../components/grid-item'
 import thumbTTT from '../public/images/contents/tictactoe.PNG'
 import thumbClock from '../public/images/contents/clock.PNG'
 import thumbStopWatch from '../public/images/contents/stopwatch.PNG'
+import thumbSnake from '../public/images/contents/snake.PNG'
 
 const Posts = () => (
   <Layout title="Mini-Projects">
@@ -39,7 +40,12 @@ const Posts = () => (
             href="https://zuckuu.github.io/Stopwatch/"
             targer="_blank"
           />
+           <GridItem
+            title="Snake-game (no link)"
+            thumbnail={thumbSnake}
+          />
         </SimpleGrid>
+        
       </Section>
     </Container>
   </Layout>
