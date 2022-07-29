@@ -11,7 +11,8 @@ const Work = () => (
       </Title>
       <P>
         This is a restaurant website made with just HTML, CSS, JAVA, along with
-        swiper.js. Feature: About, Order, Dishes, Menu, Reviews, Cart.
+        swiper.js. Feature: About, Order, Dishes, Menu, Reviews, Cart. I build
+        this with the help of youtube.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -23,8 +24,8 @@ const Work = () => (
           <span>Html, Css, Java</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <span>Restaurant Website!!!</span>
+          <Meta>What I learned</Meta>
+          <span>This was just mainly for practicing my css skills and using swiper.js</span>
         </ListItem>
       </List>
 
