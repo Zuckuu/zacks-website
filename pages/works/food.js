@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="foodHotLine">
     <Container>
       <Title>
-        foodHotLine <Badge>2022-</Badge>
+        foodHotLine <Badge>2022</Badge>
       </Title>
       <P>
         This is a restaurant website made with just HTML, CSS, JAVA, along with
