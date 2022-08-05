@@ -11,6 +11,7 @@ import thumbNetflix from '../public/images/works/netflix-clone.png'
 import thumbYoutube from '../public/images/works/youtube-clone.png'
 import thumbOst from '../public/images/works/ost.png'
 import thumbFood from '../public/images/works/food.png'
+import thumbWeather from '../public/images/works/weather.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -19,31 +20,32 @@ const Works = () => (
         Works
       </Heading>
 
-
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-
-      <Section>
-          <WorkGridItem
-            id="food"
-            title="foodHotLine"
-            thumbnail={thumbFood}
-          >
-           This is a restaurant website made with just HTML, CSS, JAVA, along with swiper.js.
-           Feature: About, Order, Dishes, Menu, Reviews, Cart. 
+        <Section>
+          <WorkGridItem id="food" title="foodHotLine" thumbnail={thumbFood}>
+            This is a restaurant website made with just HTML, CSS, JAVA, along
+            with swiper.js. Feature: About, Order, Dishes, Menu, Reviews, Cart.
           </WorkGridItem>
         </Section>
 
         <Section>
-          <WorkGridItem
-            id="ost"
-            title="OST Website"
-            thumbnail={thumbOst}
-          >
-           An e-commerce website that feature logins, carts, shopping methods, etc.
+          <WorkGridItem id="ost" title="OST Website" thumbnail={thumbOst}>
+            An e-commerce website that feature logins, carts, shopping methods,
+            etc.
           </WorkGridItem>
         </Section>
 
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="weather"
+            title="Weather-Website"
+            thumbnail={thumbWeather}
+          >
+            A website where you can look up the weather by city. I used two API
+            for this, one for the geoLocation and the other one is for the
+            weather in that location.
+          </WorkGridItem>
+        </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
@@ -56,7 +58,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.3}>
           <WorkGridItem
             id="movie"
             title="Movie Searcher"
@@ -77,7 +79,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.5}>
           <WorkGridItem
             id="treact"
             thumbnail={thumbTreact}
@@ -97,7 +99,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.5}>
+        <Section delay={0.8}>
           <WorkGridItem
             id="youtube-clone"
             thumbnail={thumbYoutube}
@@ -106,10 +108,6 @@ const Works = () => (
             A clone I made from YouTube. A pratice on reusing components.
           </WorkGridItem>
         </Section>
-
-        
-
-
       </SimpleGrid>
     </Container>
   </Layout>

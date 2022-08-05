@@ -8,6 +8,7 @@ import thumbClock from '../public/images/contents/clock.png'
 import thumbStopWatch from '../public/images/contents/stopwatch.png'
 import thumbSnake from '../public/images/contents/snake.png'
 import thumbMc from '../public/images/contents/mc-calc.png'
+import thumb2048 from '../public/images/contents/g2048-01.png'
 
 const Posts = () => (
   <Layout title="Mini-Projects">
@@ -53,6 +54,12 @@ const Posts = () => (
             title="Minecraft Stack Calculator"
             thumbnail={thumbMc}
             href="https://zuckuu.github.io/MC-StackCalc/"
+            targer="_blank"
+          />
+           <GridItem
+            title="2048"
+            thumbnail={thumb2048}
+            href="https://zuckuu.github.io/g2048/"
             targer="_blank"
           />
         </SimpleGrid>
