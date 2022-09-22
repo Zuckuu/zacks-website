@@ -16,6 +16,16 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
+          <Meta>Website</Meta>
+          <Link
+            href="https://restaurant-site-fcsb.vercel.app/"
+            target="_blank"
+          >
+            https://restaurant-site-fcsb.vercel.app/{' '}
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
@@ -25,7 +35,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>What I learned</Meta>
-          <span>This was just mainly for practicing my css skills and using swiper.js</span>
+          <span>
+            This was just mainly for practicing my css skills and using
+            swiper.js
+          </span>
         </ListItem>
       </List>
 

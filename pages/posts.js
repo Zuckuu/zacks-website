@@ -43,8 +43,10 @@ const Posts = () => (
             targer="_blank"
           />
            <GridItem
-            title="Snake-game (no link)"
+            title="Snake-game"
             thumbnail={thumbSnake}
+            href="https://snake-game-vv4x.vercel.app/"
+            targer="_blank"
           />
         </SimpleGrid>
       </Section>

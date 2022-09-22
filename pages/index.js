@@ -113,7 +113,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Working as a tennis coach while attending school. Also looking for
+          Working as a Lead Instructor at iCode while attending school. Also looking for
           Frontend Development jobs.
         </BioSection>
       </Section>
